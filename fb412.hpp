@@ -11,9 +11,18 @@
  *	answer[i] == i (as a string) if none of the above conditions are true. 		
 *******************************************************************************/
 
-class Solution {
+#ifndef FB412_HPP
+#define FB412_HPP
+
+class Solution 
+{
+
+private:
+
 public:
-    vector<string> fizzBuzz(int n) {
-        
-    }
+	solution();
+	vector<string> fizzBuzz(int n);
+	~solution();
 };
+
+#endif

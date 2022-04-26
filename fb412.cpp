@@ -11,5 +11,20 @@
  *	    answer[i] == "Buzz" if i is divisible by 5.
  *	    answer[i] == i (as a string) if none of the above conditions are true. 		
 *******************************************************************************/
+#include fb412.hpp
 
+solution::solution()
+{
+	std::cout << "Congratulations, you finally compiled this mess" << std::endl;
+}
+
+vector<string> solution::fizzBuzz(int n) 
+{ 
+
+}
+
+solution::~solution()
+{
+
+}
 
