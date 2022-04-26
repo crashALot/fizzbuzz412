@@ -1,7 +1,9 @@
 /*******************************************************************************
+ * File: fb412.hpp
  * Author: Glenn Kiefer
  * Date: 25 April 2022
- * Description: Fizzbuzz problem 412 - Header and methods file.
+ * Description: Fizzbuzz problem 412 - Header and methods file for fb412.cpp.
+ *
  * 	Given an integer n, return a string array answer (1-indexed) where:
  *	answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
  *	answer[i] == "Fizz" if i is divisible by 3.
