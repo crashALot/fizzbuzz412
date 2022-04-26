@@ -17,6 +17,7 @@ solution::solution()
 {
 	std::cout << "Congratulations, you finally compiled this mess" << std::endl;
 	std::cout << "Enter an integer and we'll get this started: " << std::endl;
+
 }
 
 vector<string> solution::fizzBuzz(int n) 
