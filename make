@@ -9,7 +9,7 @@ LINK_TARGET = fb412.exe
 
 OBJS = \
  fb412.o \
- fb412.o \
+ fb412h.o \
  fb412main.o
 
 REBUILDABLES = $(OBJS) $(LINK_TARGET)
@@ -27,6 +27,6 @@ $(LINK_TARGET) : $(OBJS)
 %.o : %.cpp
   g++ -g -o $@ -c $<
 
-fb412.o : fb412.h Test1.h Test2.h
-Test1.o : Test1.h Test2.h
-Test2.o : Test2.h
+fb412main.o : fb412h.hpp fb412.cpp
+fb412h.o : fb412.hpp
+fb412.o : fb412h.cpp
